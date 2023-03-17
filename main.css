@@ -77,6 +77,29 @@ body {
     color: #072541;
 }
 
+.clear {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.all-clear {
+    background-color: #381d6b;
+}
+
+.delete {
+    background-color: rgb(145, 52, 52);
+}
+
+.brackets {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bracket {
+    width: 45%;
+}
+
 .equal {
     grid-area: 5 / 3 / 6 / 5;
     font-size: 32px; 
